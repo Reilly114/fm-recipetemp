@@ -1,0 +1,96 @@
+@font-face {
+  font-family: youngserif-regular;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 40%;
+  height: 20%;
+  border-radius: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: youngserif-regular;
+  font-weight: 600;
+}
+
+.image {
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  line-height: 10px;
+}
+
+ul {
+  line-height: 30px;
+}
+
+ul li::marker,
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border-radius: 25px;
+}
+h2 {
+  color: hsl(332, 51%, 32%);
+  font-family: youngserif-regular;
+  font-weight: 600;
+}
+
+#ingre {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+#instro {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  line-height: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 25px;
+}
+
+td {
+  padding-left: 25px;
+  line-height: 50px;
+}
+tr {
+  border-bottom: 1px solid black;
+}
+
+#noborder {
+  border-bottom: none;
+}
+
+.weight {
+  color: hsl(332, 51%, 32%);
+}
